@@ -32,5 +32,4 @@ if __name__ == '__main__':
                         help='Run in debug mode')
 
     args = parser.parse_args()
-    print(args)
     run_project(args)
